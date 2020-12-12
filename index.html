@@ -29,7 +29,41 @@
 
                 <label for="date">Date of Birth :</label>
                 <input type="number" class="form-control" id="date" placeholder="date of birth" name="date">
-            </div></form>
+            </div>
+            
+            <div class="form-group">
+                <label for="month">Gender</label><br>
+                <div class="form-check-inline">
+                  <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="gender" id="male">  Male 
+                  </label>
+                </div>
+                <div class="form-check-inline">
+                  <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="gender" id="female">  Female 
+                  </label>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary" onclick="findNumber()">Get Name</button> <br>
+        
+        </form>
+
+        <p id="results"></p>
+        </div>
+    </div>
+
+    <div class="card-deck">
+        <div class="card">
+            <div class="card-body text-center">
+                <p>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body text-center">
+                <p class="card-text">Names are based on gender and the date you were born.</p> <br>
+                <p><a href="https://en.wikipedia.org/wiki/Akan_names">More on Akan Names</a></p>
+            </div>
         </div>
     </div>
 </body>
