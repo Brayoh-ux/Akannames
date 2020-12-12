@@ -130,4 +130,6 @@ font-weight: 600;
 footer{
   text-align: center;
   color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 15px;
 }
