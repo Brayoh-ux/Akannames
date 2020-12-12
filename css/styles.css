@@ -118,3 +118,12 @@ font-weight: 600;
 .btn:hover{
   background-color: #16697a;
 }
+.card{
+  background-color:  #e7914a;
+ 
+  
+}
+.card p{
+  color: #000000;
+  text-align: center;
+}
