@@ -120,10 +120,10 @@ font-weight: 600;
 }
 .card{
   background-color:  #e7914a;
- 
-  
 }
 .card p{
   color: #000000;
-  text-align: center;
+}
+.card a{
+  color: #072e38;
 }
