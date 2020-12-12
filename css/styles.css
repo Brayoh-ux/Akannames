@@ -112,3 +112,9 @@ font-weight: 600;
   color: rgb(0, 0, 0);
   text-decoration: none;
 }
+.btn {
+  background-color: #db6400;
+}
+.btn:hover{
+  background-color: #16697a;
+}
