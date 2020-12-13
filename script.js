@@ -65,12 +65,16 @@ else if ((month < 1) || (month > 31)) {
 //  }
 
   if(male.checked && year > 0 && month > 0 && month < 13 && day > 0 && day < 32) {
-    output.style.background ="lime"
+    output.style.background ="#643610"
+    output.style.borderRadius = "8px"
+    output.style.color = "#fff"
     output.innerHTML = "Hey! " + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + maleNames[results];
   }
    else if(female.checked && year > 0 && month > 0 && month < 13 && day > 0 && day < 32) {
     output.style.background ="lime"
     output.style.background =" #072e38"
+    output.style.color = "#fff"
+    output.style.borderRadius = "8px"
     output.innerHTML = "Hey! " + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + femaleNames[results];
 }
 
