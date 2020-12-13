@@ -20,23 +20,25 @@
         <div class="container">
             <h2>Enter your datials here!</h2>
 
-            <form name="myForm" class="form" onsubmit="validate()">
+            <form >
             <div class="form-group">
-                <label for="number">Year of Birth:</label>
+                <label>Enter Your first Name.</label>
+                <input type="text" class="form-control" id="name" placeholder="name" required>
+                <label >Year of Birth:</label>
                 <input type="number" class="form-control" id="year" placeholder="year of birth e.g 1995" name="year" 
                 required min="1600" max="2020">
 
-                <label for="month">Month of Birth :</label>
+                <label>Month of Birth :</label>
                 <input type="number" class="form-control" id="month" placeholder="month of birth e.g 10" name="month"
                 required min="1" max="12">
 
-                <label for="date">Date of Birth :</label>
-                <input type="number" class="form-control" id="date" placeholder="date of birth" name="date" 
+                <label >Date of Birth :</label>
+                <input type="number" class="form-control" id="day" placeholder="date of birth" name="date" 
                 required min="1" max="31">
             </div>
             
             <span><p id="output"></p></span>
-            
+
             <div class="form-group">
                 <label for="month">Gender</label><br>
                 <div class="form-check-inline">
@@ -53,7 +55,7 @@
 
             <a onclick="submission()" class="btn btn-outline-info btn-lg">Submit</a>
 
-            <button type="reset" class="btn btn-primary" >Reset</button> <br>
+            <button type="reset" class="btn btn-outline-info btn-lg" >Reset</button> <br>
         
         </form>
 
