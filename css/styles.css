@@ -133,3 +133,8 @@ footer{
   padding-top: 10px;
   padding-bottom: 15px;
 }
+#output{
+  font-size:1.8em;
+   border:2px solid white;
+  text-shadow: 2px 2px 4px #000000;
+}

@@ -23,20 +23,25 @@
             <form name="myForm" class="form" onsubmit="validate()">
             <div class="form-group">
                 <label for="number">Year of Birth:</label>
-                <input type="number" class="form-control" id="year" placeholder="year of birth e.g 1995" name="year">
+                <input type="number" class="form-control" id="year" placeholder="year of birth e.g 1995" name="year" 
+                required min="1600" max="2020">
 
                 <label for="month">Month of Birth :</label>
-                <input type="number" class="form-control" id="month" placeholder="month of birth e.g 10" name="month">
+                <input type="number" class="form-control" id="month" placeholder="month of birth e.g 10" name="month"
+                required min="1" max="12">
 
                 <label for="date">Date of Birth :</label>
-                <input type="number" class="form-control" id="date" placeholder="date of birth" name="date">
+                <input type="number" class="form-control" id="date" placeholder="date of birth" name="date" 
+                required min="1" max="31">
             </div>
+            
+            <span><p id="output"></p></span>
             
             <div class="form-group">
                 <label for="month">Gender</label><br>
                 <div class="form-check-inline">
                   <label class="form-check-label">
-                    <input type="radio" class="form-check-input" name="gender" id="male">  Male 
+                    <input type="radio" class="form-check-input" name="gender" id="male" checked>  Male 
                   </label>
                 </div>
                 <div class="form-check-inline">
@@ -46,11 +51,13 @@
                 </div>
             </div>
 
-            <button type="submit" class="btn btn-primary" onclick="findNumber()">Get Name</button> <br>
+            <a onclick="submission()" class="btn btn-outline-info btn-lg">Submit</a>
+
+            <button type="reset" class="btn btn-primary" >Reset</button> <br>
         
         </form>
 
-        <p id="results"></p>
+        
         </div>
     </div>
 
