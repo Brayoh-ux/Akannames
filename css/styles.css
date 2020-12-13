@@ -120,12 +120,15 @@ font-weight: 600;
 }
 .card{
   background-color:  #e7914a;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
 }
 .card p{
   color: #000000;
 }
 .card a{
-  color: #072e38;
+  color:;
 }
 footer{
   text-align: center;
@@ -137,4 +140,7 @@ footer{
   font-size:1.8em;
    border:2px solid white;
   text-shadow: 2px 2px 4px #000000;
+}
+button a{
+  margin-bottom: 16px;
 }
