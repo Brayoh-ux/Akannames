@@ -113,26 +113,19 @@ font-weight: 600;
   text-decoration: none;
 }
 .btn {
+  color: #fff;
   background-color: #db6400;
+
 }
 .btn:hover{
   background-color: #16697a;
+  color: #fff;
+  width: 80%;
 }
-.card{
-  background-color:  #e7914a;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  border-radius: 10px;
-}
-.card p{
-  color: #000000;
-}
-.card a{
-  color:;
-}
+
 footer{
   text-align: center;
-  color: #ffffff;
+  color: #fff;
   padding-top: 10px;
   padding-bottom: 15px;
 }
@@ -143,4 +136,26 @@ footer{
 }
 button a{
   margin-bottom: 16px;
+  width: 80%;
+  color: #fff;
+
+}
+.row{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  background-color: rgba(211, 94, 51, 0.548);
+  color: #fff;
+}
+.col-md-6{
+  text-align: center;
+  line-height: 1.6rem;
+  padding-top: 18px;
+}
+.col-md-6 a{
+  background-color: rgba(255, 255, 255, 0.89);
+  color: black;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }

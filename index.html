@@ -22,19 +22,20 @@
 
             <form >
             <div class="form-group">
-                <label>Enter Your first Name.</label>
-                <input type="text" class="form-control" id="name" placeholder="name e.g Grace" required>
                 <label >Year of Birth:</label>
-                <input type="number" class="form-control" id="year" placeholder="year of birth e.g 1995" name="year" 
+                <input type="number" class="form-control" id="year" placeholder="year of birth between 1600 - 2020" name="year" 
                 required min="1600" max="2020">
 
                 <label>Month of Birth :</label>
-                <input type="number" class="form-control" id="month" placeholder="month of birth e.g 10" name="month"
+                <input type="number" class="form-control" id="month" placeholder="month of between 1 - 12" name="month"
                 required min="1" max="12">
 
                 <label >Date of Birth :</label>
-                <input type="number" class="form-control" id="day" placeholder="date of birth e.g 23" name="date" 
-                required min="1" max="31">
+                <input type="number" class="form-control" id="day" placeholder="date of between 1 - 31" name="date" 
+                required min="1" max="31"><label>Enter Your Name.</label>
+                <input type="text" class="form-control" id="name" placeholder="name e.g Grace" required>
+
+
             </div>
             
             <span><p id="output"></p></span>
@@ -53,9 +54,9 @@
                 </div>
             </div>
 
-            <a onclick="submission()" class="btn btn-outline-info btn-lg">Submit</a>
+            <a onclick="submission()" class="btn">Submit</a>
 
-            <button type="reset" class="btn btn-outline-info btn-lg" >Reset</button> <br>
+            <button type="reset" class="btn">Reset</button> <br>
         
         </form>
 
@@ -63,26 +64,16 @@
         </div>
     </div>
 
-    <div class="card-deck">
-        <div class="card">
-            <div class="card-body text-center">
-                <p>Frequently, children are given their first name as a 'day name'corresponding to the day in the week they were born.</p>
-            </div>
+    <div class="row">
+        <div class="col-md-6">
+            <p>Frequently, children are given their first name as a 'day name'corresponding to the day in the week they were born.</p>
         </div>
-        <div class="card">
-            <div class="card-body text-center">
+        <div class="col-md-6">
                 <p>Akan names are derived from Ghanian culture. </p>
                 <p><a href="https://en.wikipedia.org/wiki/Akan_names">More On Akan Names here!</a></p>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-body text-center">
-                <p class="card-text">Names are based on gender and the date you were born.</p> <br>
-                
-            </div>
-        </div>
-        
+        </div>  
     </div>
+
     <footer><strong>MIT License :</strong>
 
         Copyright (c) 2020 BrianMbugua5693</footer>
